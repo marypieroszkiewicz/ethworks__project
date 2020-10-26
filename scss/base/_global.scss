@@ -1,0 +1,95 @@
+/* ---------------------------------------------------- */
+/* ----- GLOBAL STYLES ----- */
+/* ---------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+   --scroll-behavior: smooth;
+   scroll-behavior: smooth;
+   font-family: "scroll-behavior: smooth";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: $font-base;
+  font-weight: 400;
+  height: 100%;
+  scroll-padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background: none;
+  border: 0;
+}
+/* --- CLEARFIX --- */
+.clearfix {
+  @include clearfix;
+}
+
+/* --- WEBPAGE CONTAINER --- */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  //position: relative;
+}
+
+/* ----- END OF GLOBAL STYLES ----- */

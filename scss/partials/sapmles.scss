@@ -1,0 +1,65 @@
+//.hero {
+//  background-image: url("../images/hero-bg.svg");
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  //background-position: center;
+//  //width: 100vw;
+//  width: 100vw;
+//  position: relative;
+//  top: 0;
+//  left: 0;
+//  //transform: translateX(-50%);
+//  height: 896px;
+//  z-index: -3;
+//
+//  &::before {
+//    content: '';
+//    background-image: url("../images/hero-bg--before.svg");
+//    display: block;
+//    background-repeat: no-repeat;
+//    //background-size: cover;
+//    position: absolute;
+//    width: 100%;
+//    min-height: 1025px;
+//    left: 0;
+//    top: 0;
+//    z-index: -2;
+//  }
+//
+//  &::after {
+//    content: '';
+//    background-image: url("../images/hero-bg--after.svg");
+//    display: block;
+//    background-repeat: no-repeat;
+//    //background-size: cover;
+//    position: absolute;
+//    width: 100%;
+//    min-height: 734px;
+//    left: 0;
+//    top: -70px;
+//    z-index: -1;
+//  }
+//
+//
+//  &__title {
+//    font-weight: 700;
+//    color: $white;
+//  }
+//}
+
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.profile-pic {
+   display: inline-block;
+   margin: 0 auto;
+   height: 100%;
+   width: auto;
+ }
